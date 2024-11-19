@@ -4,11 +4,15 @@
   "description": "I am building a blockchain from scratch using node js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-test": "nodemon dev-test"
   },
   "author": "Aniket Bansode",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
   }
 }
